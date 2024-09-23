@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+:root{
+    --PrimaryColor: hsl(258, 100%, 48%);
+    --SecondaryColor: hsl(262, 100%, 33%);
+    --gradientColor: linear-gradient(to right, hsl(259, 58%, 50%), hsl(258, 100%, 48%));
+    --whiteColor: hsl(199, 100%, 100%);
+    --blackColor: hsl(0, 0%, 0%);
+    --textColor: hsl(261, 100%, 31%);
+    --whiteColorDeam: hsl(0, 0%, 90%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(246, 246, 246);
+    --cardBG: rgb(225, 225, 235);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.section{
+    padding: 4rem 0 2rem;
+}
+
+.container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+}
+
+.btn{
+    padding: .6rem 1.5rem;
+    background: var(--gradientColor);
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn a{
+    color: var(--whiteColor);
+}
+
+.btn:hover{
+    background: var(--SecondaryColor);
+}
+
+img, video{
+    width: 100%;
+    height: auto;
+}
+
+input{
+    width: 100%;
+}
+
+body{
+    background: var(--bodyColor);
+}
+
+.me{
+    margin-right: 5px;
+}
+
+@media screen and (min-width: 1240px) {
+    .container{
+        width: 80% !important;
+        margin: auto !important;
+    };
+
+    .section{
+        padding: 6rem 0 4rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    zoom: 1.7;
+    
+}

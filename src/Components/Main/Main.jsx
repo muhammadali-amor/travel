@@ -69,7 +69,7 @@ const Countries = [
 const Main = () => {
     return (
         <section className={'main container section'}>
-            <div  data-aos={"fade-right"}  className="secTitle">
+            <div  data-aos={"fade-left"}  className="secTitle">
                 <h3 className="title">
                     Most visited destinations
                 </h3>
@@ -78,7 +78,7 @@ const Main = () => {
             <div className="secContent grid">
                 {Countries.map(item => {
                     return (
-                        <div  data-aos={"fade-up"}  key={item.id} className={'singleDestination'}>
+                        <div  data-aos={"fade-right"}  key={item.id} className={'singleDestination'}>
                             <div className="imageDiv">
                                 <img src={item.imgSrc} alt={item.destTitle}/>
                             </div>

@@ -22,7 +22,7 @@ const NavBar = () => {
                 <div className="logoDiv">
                     <a href="#" className="logo">
                         <h1>
-                            <MdOutlineTravelExplore className={'icon'}/> Travel.
+                            <MdOutlineTravelExplore className={'icon'}/> Travel
                         </h1>
                     </a>
                 </div>
